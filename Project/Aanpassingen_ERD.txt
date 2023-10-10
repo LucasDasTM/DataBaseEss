@@ -1,0 +1,8 @@
+Race: ability varchar van 15 naar 46 anders past de ability score van human niet in het veld
+Class: savingthrow varchar verandert naar 26 anders past artificers savingthrows niet in het veld
+Background: tool proffiecency varchar naar 60 verplaats voor far travelelr in het veld te passen,
+		Language varchar verhoogt naar 120 omwille van Haunted one background
+
+PLAYABLECHARACTER: charactersheet id is unique want elk character kan maar door 1 speler gespeelt worden
+CharacterClass: combineert unique constraint voor classid en characterid, sinds een character meer ddan 1 klas kan hebben
+PLAYER: varchar voor phone verandert naar 15 zodat landcodes ook toegevoegt kunnen worden
